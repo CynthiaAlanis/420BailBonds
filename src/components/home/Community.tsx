@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+// import { useEffect, useState } from 'react';
 
 import Image from 'next/image';
 
@@ -6,16 +6,12 @@ import { IconArrowRight } from '@tabler/icons';
 import { Card, CardBody, CardTitle } from '../utils/Card';
 import Container from '../utils/Container';
 
-
-
-
-
-const Statistic = (props: {statCount: string, statName: string}) => (
-    <div id={props.statName}>
-        <h1 className="text-5xl font-bold text-blue-dark-contrast">{props.statCount}</h1>
-        <p>{props.statName}</p>
-    </div>
-);
+// const Statistic = (props: {statCount: string, statName: string}) => (
+//     <div id={props.statName}>
+//         <h1 className="text-5xl font-bold text-blue-dark-contrast">{props.statCount}</h1>
+//         <p>{props.statName}</p>
+//     </div>
+// );
 
 export const Community = () => {
 
