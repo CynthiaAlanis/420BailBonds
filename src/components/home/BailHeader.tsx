@@ -33,7 +33,7 @@ export const BailHeader = () => {
 
                         <Link href="/notams">
                             <Button
-                                className="w-40 hover:text-blue-light bg-blue-light hover:bg-white border-2 border-blue-light"
+                                className="w-40 hover:text-sky-400 bg-sky hover:bg-white border-2 border-sky"
                             >
                                 Learn More
                             </Button>

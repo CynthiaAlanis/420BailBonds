@@ -15,7 +15,7 @@ export const Hero = () => (
                     <h1 className="mt-2 w-2/3 text-xl">
                         &quot;420 Bail Bonds is the company you can rely on. Their dedication to their clients' well-being and their commitment to excellence make them an outstanding choice in the industry.&quot;
                     </h1>
-                    <p className="mt-4 text-xl text-gray-200">
+                    <p className="mt-4 text-xl text-stone-200">
                         - Raymond Sanchez
                     </p>
                     <br/>

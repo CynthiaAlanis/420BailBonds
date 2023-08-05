@@ -12,7 +12,7 @@ export const Installer = forwardRef(() => (
         <Container className="flex flex-col items-center 3xl:flex-row 3xl:justify-center">
             <div className="mb-4 text-center 2xl:mr-12 3xl:text-left">
             
-                <IconPackage className="p-2 mx-auto mb-4 bg-blue-light-contrast rounded-xl 3xl:mx-0" size={55} stroke={1.5} />
+                <IconPackage className="p-2 mx-auto mb-4 bg-sky-contrast rounded-xl 3xl:mx-0" size={55} stroke={1.5} />
                 <h1 className="font-extrabold">
                     Our Services
                 </h1>
