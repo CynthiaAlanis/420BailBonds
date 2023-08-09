@@ -2,7 +2,6 @@ import Link from 'next/link';
 import { Button } from '../utils/Button';
 import Container from '../utils/Container';
 export const BailHeader = () => {
- 
     return (
         <header>
             <video
@@ -20,12 +19,10 @@ export const BailHeader = () => {
                         <span className="text-teal">420</span>
                          Bail Bonds
                     </h1>
-                
                     <p className="max-w-xl">
                     Arrests are often scary and stressful, but the good news is that you are not alone. At 420 Bail Bonds, we have been providing reliable bail bond services since 1927
                     </p>
                     <div className="flex gap-4 my-5 max-w-md">
-
                         <Link href="/notams">
                             <Button
                                 className="w-40 hover:text-sky-400 bg-sky hover:bg-white border-2 border-sky"
