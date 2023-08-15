@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import { Button } from '../utils/Button';
 import Container from '../utils/Container';
+
 export const BailHeader = () => {
     return (
         <header>

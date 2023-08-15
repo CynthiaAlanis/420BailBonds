@@ -28,7 +28,6 @@
     "export": "next export",
     "lint": "eslint **/*.{js,jsx,ts,tsx}",
     "lint:fix": "eslint **/*.{js,jsx,ts,tsx} --fix"
-    
   },
   "browserslist": {
     "production": [
@@ -52,15 +51,15 @@
     "@types/uuid": "^8.3.4",
     "@typescript-eslint/eslint-plugin": "^4.33.0",
     "@typescript-eslint/parser": "^4.33.0",
-    "autoprefixer": "^10.2.5",
+    "autoprefixer": "^10.4.15",
     "eslint": "^7.32.0",
     "eslint-config-next": "^12.1.4",
     "eslint-plugin-react": "^7.29.4",
     "eslint-plugin-tailwindcss": "^3.5.0",
     "node-html-to-image": "^3.2.4",
-    "postcss": "^8.2.10",
+    "postcss": "^8.4.27",
     "sass": "^1.49.10",
-    "tailwindcss": "^3.0.23",
+    "tailwindcss": "^3.3.3",
     "uuid": "^8.3.2"
   }
 }
