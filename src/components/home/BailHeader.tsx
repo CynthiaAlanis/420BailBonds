@@ -26,7 +26,7 @@ export const BailHeader = () => {
                     <div className="flex gap-4 my-5 max-w-md">
                         <Link href="/notams">
                             <Button
-                                className="w-40 hover:text-sky-400 bg-sky hover:bg-white border-2 border-sky"
+                                className="w-40 hover:text-teal-400 bg-sky hover:bg-white border-2 border-teal"
                             >
                                 Learn More
                             </Button>

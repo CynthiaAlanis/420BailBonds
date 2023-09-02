@@ -9,13 +9,13 @@ export const Hero = () => (
                         
                     </h2>
                     <h1 className="text-7xl font-medium sm:text-8xl">
-                        <span className="text-blue-light">420</span>
+                        <span className="text-teal">420</span>
                          Bail Bonds
                     </h1>
                     <h1 className="mt-2 w-2/3 text-xl">
                         &quot;420 Bail Bonds is the company you can rely on. Their dedication to their clients' well-being and their commitment to excellence make them an outstanding choice in the industry.&quot;
                     </h1>
-                    <p className="mt-4 text-xl text-stone-200">
+                    <p className="mt-4 text-xl text-gray-400">
                         - Raymond Sanchez
                     </p>
                     <br/>

@@ -1,7 +1,7 @@
 export const Features = () => (
     <>
         <div className="mx-auto mt-12 mb-20 max-w-2xl divide-y divide-stone-500 px-page">
-            <p className="pt-3 mt-3 mb-4 text-5xl font-medium text-center text-blue-light">
+            <p className="pt-3 mt-3 mb-4 text-5xl font-medium text-center text-teal">
                 Why Choose <br/> 
                 420 Bail Bonds
             </p>
