@@ -9,7 +9,6 @@ const App = ({ Component, pageProps }: AppProps) => (
     <div className="root">
         <Head>
             <meta charSet="utf-8" />
-
             <meta name="theme-color" content="#00c2cc" />
             <meta name="viewport" content="width=device-width, initial-scale=1" />
 

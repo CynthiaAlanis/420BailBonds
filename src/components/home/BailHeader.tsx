@@ -16,8 +16,10 @@ export const BailHeader = () => {
             <Container className="relative max-w-6xl min-h-screen">
                 <div className="absolute bottom-0 left-0 h-2/3 px-page">
                     <h1 className="text-8xl font-bold">
-                    <img className="logo" src="logo1.png" alt="logo" width="150"/>
-                        <span className="text-teal">420</span>
+                        <>
+                           <img className="logo" src="logo1.png" alt="logo" width="150"/>
+                           <span className="text-teal">420</span>
+                        </>
                          Bail Bonds
                     </h1>
                     <p className="max-w-xl">
@@ -36,4 +38,4 @@ export const BailHeader = () => {
             </Container>
         </header>
     );
-};
+    };
