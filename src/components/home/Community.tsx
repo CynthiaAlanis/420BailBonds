@@ -1,4 +1,4 @@
-import Image from 'next/image';
+import NextImage from 'next/image';
 import { IconArrowRight } from '@tabler/icons';
 import { Card, CardBody, CardTitle } from '../utils/Card';
 import Container from '../utils/Container';
@@ -20,7 +20,7 @@ export const Community = () => {
                     <Card bgColour="stone-100" className="border-discord shadow-lg">
                         <CardTitle>
                             <span className="flex justify-center items-center p-2 mr-2 bg-discord rounded-xl">
-                                <Image src="/svg/cannabis.svg" width={23} height={23} />
+                                <NextImage src="/svg/cannabis.svg" width={23} height={23} />
                             </span>
                             420 Bail Bonds
                         </CardTitle>
