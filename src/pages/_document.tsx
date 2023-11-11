@@ -5,13 +5,17 @@ class AppDocument extends Document {
 
     render() {
         return (
-            <Html lang="en">
-                <Head />
+          
+                       <Html lang="en">
+                <Head>
+                    
+                </Head>
                 <body>
                     <Main />
                     <NextScript />
                 </body>
             </Html>
+          
         );
     }
 }

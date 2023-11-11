@@ -35,11 +35,11 @@ module.exports = {
             },
             colors: {
                 colors,
-                blue: { 'dark-contrast': 'hsl(216,32%,17%)' },
-                midnight: { DEFAULT: 'hsl(218, 42%, 10%)' },
+                'blue-contrast': 'hsl(216, 32%, 17%)',
+                midnight: 'hsl(218, 42%, 10%)',
                 discord: {
-                    DEFAULT: 'hsl(181, 77%, 50%)',
-                    dark: 'hsl(235,60%,54%)',
+                DEFAULT: 'hsl(181, 77%, 50%)',
+                dark: 'hsl(235, 60%, 54%)',
                 },
             },
             zIndex: { '-10': '-10' },
