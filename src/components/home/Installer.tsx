@@ -49,12 +49,13 @@ export const Installer = forwardRef(() => (
             </div>
             <div className="-mb-[125px] w-11/12 xl:w-5/6 3xl:-mb-3 3xl:w-320">
                 <Image
-                    src="/img/InstallerScreenshot.png"
-                    alt="Installer"
+                    src="/img/blueImage.png"
+                    alt="blue"
                     width={1200}
                     height={850}
                     quality={90}
-                    objectFit="contain"
+                    
+                    // objectFit="contain"
                 />
             </div>
         </Container>
