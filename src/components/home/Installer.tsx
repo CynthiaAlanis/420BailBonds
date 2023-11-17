@@ -1,4 +1,4 @@
-import Image from 'next/image';
+import Image from 'next/legacy/image';
 import { createRef, forwardRef } from 'react';
 import { IconPackage } from '@tabler/icons';
 import { Button } from '../utils/Button';
@@ -22,7 +22,7 @@ export const Installer = forwardRef(() => (
                <br/>
                <div className="max-w-2xl text-blue-100">
                
- <ol className="list-decimal">
+ <ul className="list-decimal">
   <li>Surety Bonds: We specialize in surety bonds, which involve a contractual agreement between the defendant, a bail bondsman, and the court. We act as the surety, guaranteeing the appearance of the defendant in court.</li>
   <br/>
   <li>Cash Bail Bonds: If you prefer to pay the full amount of bail in cash, we can facilitate that process by assisting you in posting the required bail amount with the court.</li>
@@ -36,7 +36,7 @@ export const Installer = forwardRef(() => (
   <li>Immigration Bail Bonds: If a loved one is detained by immigration authorities, we offer immigration bail bond services to assist in securing their release while their immigration case is pending.</li>
   <br/>
   <li>Federal Bail Bonds: When facing federal charges, the bail process can be more complex. We have experience in handling federal bail bonds and can provide the necessary support and expertise.</li>
-</ol>
+</ul>
 </div>
 <br/>               
 
@@ -53,9 +53,6 @@ export const Installer = forwardRef(() => (
                     alt="blue"
                     width={1200}
                     height={850}
-                    quality={90}
-                    
-                    // objectFit="contain"
                 />
             </div>
         </Container>

@@ -6,15 +6,16 @@ class AppDocument extends Document {
     render() {
         return (
           
-                       <Html lang="en">
-                <Head>
-                    
-                </Head>
-                <body>
-                    <Main />
-                    <NextScript />
-                </body>
-            </Html>
+            <Html lang="en">
+           <Head>
+
+           </Head>
+            
+            <body>
+              <Main />
+              <NextScript />
+            </body>
+          </Html>      
           
         );
     }

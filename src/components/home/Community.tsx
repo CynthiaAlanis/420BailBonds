@@ -1,4 +1,4 @@
-import Image from 'next/image';
+import Image from 'next/legacy/image';
 import { IconArrowRight } from '@tabler/icons';
 import { Card, CardBody, CardTitle } from '../utils/Card';
 import Container from '../utils/Container';

@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import Link from 'next/link';
-import Image from 'next/image';
+import Image from 'next/legacy/image';
 import { NavLinks } from './NavLinks';
 import Container from './Container';
 
@@ -41,7 +41,10 @@ export const NavBar = () => {
             <Container className="p-4">
                 <div className="flex justify-between space-x-4">
                     <Link href="/">
-                        <Image className="cursor-pointer" src="/svg/white/420Bail.png" width={100} height={100} />
+                        <Image className="cursor-pointer" 
+                        src="/svg/white/420Bail.png" width={100} 
+                        height={100} 
+                        alt="420bail"/>
                     </Link>
                     <span className="flex flex-col place-content-center w-7 h-10 transition cursor-pointer md:hidden" onClick={() => setOpen(!isOpen)}>
                         <div className={`${isOpen && 'rotate-45 translate-y-[3px]'} duration-200 h-[3px] bg-white rounded-full`} />
