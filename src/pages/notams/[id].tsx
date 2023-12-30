@@ -12,12 +12,11 @@ const NOTAMS_EMBED_PREVIEWS_PUBLIC_DIR = 'img/notams-embed-previews';
 
 export type PostProps = { content: PostContent, embedPreviewPath: string }
 
-const Post = ({ content: { authors, category, contentHtml, date, readingStats, title, metaImage, metaAlt }, embedPreviewPath }: PostProps) => (
+const Post = ({ content: { authors, category, contentHtml,readingStats, title, metaImage, metaAlt }, embedPreviewPath }: PostProps) => (
     <>
         <Head>
             <title>
-                {title}
-                {' '}
+                
                 - 420 Bail Bonds
             </title>
 
@@ -26,8 +25,8 @@ const Post = ({ content: { authors, category, contentHtml, date, readingStats, t
             <meta key="og:type" name="og:type" content="object" />
             <meta key="og:site_name" name="og:site_name" content="420 Bail Bonds" />
             <meta key="og:title" name="og:title" content={title} />
-            <meta key="og:description" name="og:description" content="A NOTAM on the FlyByWire Simulations website" />
-            <meta key="og:image:alt" name="og:image:alt" content={`${title} - FlyByWire Simulations`} />
+            <meta key="og:description" name="og:description" content="A Bail Bonds website" />
+            <meta key="og:image:alt" name="og:image:alt" content={`${title} - 420 Bail Bonds`} />
             <meta key="og:image:width" name="og:image:width" content="1200" />
             <meta key="og:image:height" name="og:image:height" content="600" />
             <meta name="twitter:image" content={embedPreviewPath} />
@@ -38,7 +37,7 @@ const Post = ({ content: { authors, category, contentHtml, date, readingStats, t
                 <div className="absolute w-full h-full opacity-20 blur-sm">
                     <Image
                         layout="fill"
-                        objectFit="cover"
+                        style={{objectFit:"cover"}}
                         draggable="false"
                         src={metaImage}
                         alt={metaAlt}
