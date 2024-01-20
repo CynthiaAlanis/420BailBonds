@@ -1,5 +1,5 @@
 import { GetStaticPaths, GetStaticProps } from 'next';
-import Image from 'next/image';
+import Image from "next/legacy/image";
 import nodeHtmlToImage from 'node-html-to-image';
 import { v4 } from 'uuid';
 import * as fs from 'fs';
@@ -37,7 +37,6 @@ const Post = ({ content: { authors, category, contentHtml,readingStats, title, m
                 <div className="absolute w-full h-full opacity-20 blur-sm">
                     <Image
                         layout="fill"
-                        style={{objectFit:"cover"}}
                         draggable="false"
                         src={metaImage}
                         alt={metaAlt}

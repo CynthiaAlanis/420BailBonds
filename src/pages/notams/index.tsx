@@ -1,6 +1,6 @@
 import { GetStaticProps } from 'next';
 import Link from 'next/link';
-import Image from 'next/image';
+import Image from "next/legacy/image";
 import { getPostListings, PostListing } from '../../lib/notams/posts';
 import Container from '../../components/utils/Container';
 
@@ -40,7 +40,7 @@ const Blog = ({ listings }: BlogProps) => (
                                 <Image
                                     width={1000}
                                     height={350}
-                                    objectFit="cover"
+                                    
                                     draggable="false"
                                     src={metaImage}
                                     alt={metaAlt}

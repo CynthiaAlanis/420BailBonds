@@ -41,15 +41,9 @@
 @tailwind components;
 @tailwind utilities;
 
-// @layer utilities {
-//   @variants hover, focus {
-//     .px-page {
-//       @apply px-5 md:px-8;
-//     }
-//   }
-// }
 @layer utilities {
-  .content-auto {
-    content-visibility: auto;
-  }
+  
+    .px-page {
+      @apply px-5 md:px-8;
+    }
 }
