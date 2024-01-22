@@ -21,7 +21,6 @@ export const Footer = () => (
 
             <div className="flex gap-x-4 justify-center">
                
-                {/* <FooterIconItem icon={faTwitter} href="" /> */}
                 <FooterIconItem icon={faFacebook} href="https://www.facebook.com/ssmehrbailbonds/" />
                 <FooterIconItem icon={faYoutube} href="https://www.youtube.com/@lawofficesofjerrynicholson1878" />
             </div>

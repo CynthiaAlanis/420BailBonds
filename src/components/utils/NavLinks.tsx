@@ -39,7 +39,7 @@ export const NavLinks = (props: { className?: string }) => {
            
             {router.pathname !== '/' && <NavLink name="Home" path="/" />}
             <NavLink name="Location" path="/notams" />
-            <NavLink name="About" path="/a32nx" />
+            {/* <NavLink name="About" path="/a32nx" /> */}
           
 
             <Dropdown titleName="Community">
