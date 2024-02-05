@@ -5,7 +5,7 @@ authors:
   - '420 Bail Bonds'
 category: 'UPDATE'
 metaImage: '/img/Welcome.png'
-metaAlt: 'FlyByWire Simulations'
+metaAlt: 'welcome'
 ---
 
 
