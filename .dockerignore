@@ -1,9 +1,3 @@
 docker-compose.yml
 Dockerfile
-.github/**
-charts/**
-.idea/**
-node_modules/**
-vendor/**
-debug.log
-.eslintcache
+.github
