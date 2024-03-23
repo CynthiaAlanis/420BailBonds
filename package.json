@@ -26,7 +26,7 @@
     "dev": "next dev",
     "build": "next build",
     "export": "next export",
-    "lint": "eslint **/*.{js,jsx,ts,tsx}",
+    "lint": "next lint --fix",
     "lint:fix": "eslint **/*.{js,jsx,ts,tsx} --fix"
   },
   "browserslist": {
