@@ -52,9 +52,6 @@ export const NavLinks = (props: { className?: string }) => {
                 <DropdownItem>
                     <NavLink name="Facebook" external path="https://www.facebook.com/ssmehrbailbonds/" />
                 </DropdownItem>
-                <DropdownItem>
-                    <NavLink name="YouTube" external path="https://www.youtube.com/@lawofficesofjerrynicholson1878" />
-                </DropdownItem>
             </Dropdown>
         </span>
     );
